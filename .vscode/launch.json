@@ -14,8 +14,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
-
-
+        
         {
             "name": "Sandbox Project",
             "type": "coreclr",

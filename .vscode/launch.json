@@ -3,18 +3,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "classPractices",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build-sandbox-classPractices",
-            "program": "${workspaceFolder}/sandbox/classPractices/bin/Debug/net8.0/classPractices.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/sandbox/classPractices",
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "stopAtEntry": false
-        },
-        {
             "name": "DiceDistribution",
             "type": "coreclr",
             "request": "launch",

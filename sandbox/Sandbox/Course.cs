@@ -4,7 +4,7 @@ class Course
 {
     public string _courseCode;
     public string _className;
-    public int _numberof Credits;
+    public int _numberofCredits;
     public string _color;
 
 

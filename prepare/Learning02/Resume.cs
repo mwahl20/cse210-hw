@@ -1,6 +1,6 @@
-using System
+using System;
 
-public class resume
+public class Resume
 {
     public string _name;
 
@@ -9,7 +9,7 @@ public class resume
     public void DisplayDeets()
     {
         Console.WriteLine($"Name: {_name}");
-        Console.Write("Jobs: ");
+        Console.WriteLine("Jobs: ");
         foreach (Job job in _jobs)
         {
             job.DisplayDeets();

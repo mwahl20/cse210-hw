@@ -13,12 +13,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        PromptGenerator GetPrompt = new PromptGenerator();
-        UserResponse GetResponse = new UserResponse();
-        Uploader DataSaver = new Uploader();
+        PromptGenerator promptGenerator = new PromptGenerator();
+        UserResponse userResponse = new UserResponse();
+        DataSaver dataSaver = new DataSaver();
 
         string new_prompt = promptGenerator.GetPrompt();
-        string response = userResponse.GetResponse(prompt);
-        DataSaver.Save(prompt, response);
+        string response = userResponse.GetResponse(new_prompt);
+        dataSaver.Save(new_prompt, response);
     }
 }

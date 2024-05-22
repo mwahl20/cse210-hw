@@ -1,4 +1,44 @@
+Prompt: What was the strongest emotion I felt today?
+Response: Confusion due to programming lol
+Date: 5/22/2024 12:24:39 PM
+--------------------
 Prompt: How did I see the hand of the Lord in my life today?
-Response: I learned and got a lot of insights from sunday school today.
-Date: 5/19/2024 5:44:05 PM
+Response: Insights in programming
+Date: 5/22/2024 12:24:54 PM
+--------------------
+Prompt: Who was the most interesting person I interacted with today?
+Response: Probably my programming professor
+Date: 5/22/2024 5:30:02 PM
+--------------------
+Prompt: What was the strongest emotion I felt today?
+Response: Confusion due to programming lol
+Date: 5/22/2024 12:24:39 PM
+--------------------
+Prompt: How did I see the hand of the Lord in my life today?
+Response: Insights in programming
+Date: 5/22/2024 12:24:54 PM
+--------------------
+Prompt: Who was the most interesting person I interacted with today?
+Response: Probably my programming professor
+Date: 5/22/2024 5:30:02 PM
+--------------------
+Prompt: What was the best part of my day?
+Response: Finishing this program
+Date: 5/22/2024 5:38:37 PM
+--------------------
+Prompt: What was the best part of my day?
+Response: Working on this program
+Date: 5/22/2024 5:38:50 PM
+--------------------
+Prompt: How did I see the hand of the Lord in my life today?
+Response: I was able to finish this program
+Date: 5/22/2024 5:39:01 PM
+--------------------
+Prompt: What was the best part of my day?
+Response: Finishing this program
+Date: 5/22/2024 5:39:28 PM
+--------------------
+Prompt: If I had one thing I could do over today, what would it be?
+Response: Probably paying attention in Thermo
+Date: 5/22/2024 5:40:31 PM
 --------------------

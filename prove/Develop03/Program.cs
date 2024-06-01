@@ -9,7 +9,7 @@ class Program
         Replacer replacer = new Replacer();
         string reference = picker.GetReference();
         List<string> words = picker.GetWords();
-        Console.Write(reference);
+        
         replacer.DisplayWords(words); 
         string quitter = "_";
 
@@ -22,6 +22,8 @@ class Program
             {
                 break;
             }
+            Console.Clear();
+            Console.WriteLine(reference);
             replacer.ReplaceWords(3, words);
             
         }

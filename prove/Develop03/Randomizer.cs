@@ -54,7 +54,6 @@ public class Replacer
 
     public void DisplayWords(List<string> words)
     {
-        Console.Clear();
         Console.WriteLine(string.Join(" ", words));
     }
     

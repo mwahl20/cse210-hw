@@ -7,7 +7,9 @@ class Program
     {
         Scripturepicker picker = new Scripturepicker();
         Replacer replacer = new Replacer();
+        string reference = picker.GetReference();
         List<string> words = picker.GetWords();
+        Console.Write(reference);
         replacer.DisplayWords(words); 
         string quitter = "_";
 

@@ -1,6 +1,6 @@
 public class Cycling : Activity
 {
-    public double _avgSpeedinkm;
+    protected double _avgSpeedinkm;
     public Cycling(DateOnly date, double duration, double avgSpeed): base(date, "Cycling", duration)
     {
         _avgSpeedinkm = avgSpeed;

@@ -1,8 +1,8 @@
 public abstract class Activity
 {
-    public DateOnly _date;
-    public string _exerType;
-    public double _duration;
+    protected DateOnly _date;
+    protected string _exerType;
+    protected double _duration;
     public Activity(DateOnly date, string exerType, double duration)
     {
         _date = date;

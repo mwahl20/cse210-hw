@@ -1,6 +1,6 @@
 public class Running : Activity
 {
-    public double _distance;
+    protected double _distance;
     public Running(DateOnly date, double duration, double distance): base(date,"Running",duration)
     {
         _distance = distance;

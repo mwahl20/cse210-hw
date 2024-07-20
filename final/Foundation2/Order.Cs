@@ -2,21 +2,21 @@ using System;
 using System.Text;
 public class Order
 {
-    private List<Product> products;
+    private List<Product> _products;
     private Customer customer;
     public Order(Customer customer)
     {
         this.customer = customer;
-        this.products = new List<Product>();
+        this._products = new List<Product>();
     }
     public void AddProduct(Product product)
     {
-        products.Add(product);
+     _products.Add(product);
     }
     public double TotalPrice()
     {
         double totalPrice = 0;
-        foreach(var product in products)
+        foreach(var product in _products)
         {
             totalPrice += product.ComputeTotalPrice();
         }
@@ -37,9 +37,9 @@ public class Order
     {
         StringBuilder packinglabel = new StringBuilder();
         packinglabel.AppendLine("PackingLabel:");
-        foreach(var product in products)
+        foreach(var product in _products)
         {
-            packinglabel.AppendLine($"Product Name: {product._product}, Product ID: {product._pID}");
+            packinglabel.AppendLine($"Product: {product._product}  ID: {product._pID}");
 
         }
         return packinglabel.ToString();
